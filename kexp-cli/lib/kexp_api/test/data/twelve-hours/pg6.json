@@ -1,0 +1,35 @@
+{
+    "next": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=140&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "previous": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=100&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "results": [
+        {
+            "id": 3573339,
+            "uri": "https://api.kexp.org/v2/plays/3573339/",
+            "airdate": "2025-11-03T03:48:57-08:00",
+            "show": 65010,
+            "show_uri": "https://api.kexp.org/v2/shows/65010/",
+            "image_uri": "",
+            "thumbnail_uri": "",
+            "song": "Juliet",
+            "track_id": null,
+            "recording_id": null,
+            "artist": "bridge hartman",
+            "artist_ids": [
+                "f2511c30-ee3c-422d-b20d-7a9fb59a5104"
+            ],
+            "album": "Juliet",
+            "release_id": null,
+            "release_group_id": null,
+            "labels": [],
+            "label_ids": [],
+            "release_date": null,
+            "rotation_status": null,
+            "is_local": false,
+            "is_request": false,
+            "is_live": false,
+            "location": 1,
+            "location_name": "Default",
+            "play_type": "trackplay"
+        }
+    ]
+}

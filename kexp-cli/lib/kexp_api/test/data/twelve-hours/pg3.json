@@ -1,0 +1,37 @@
+{
+    "next": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=80&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "previous": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=40&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "results": [
+        {
+            "id": 3573401,
+            "uri": "https://api.kexp.org/v2/plays/3573401/",
+            "airdate": "2025-11-03T06:59:50-08:00",
+            "show": 65012,
+            "show_uri": "https://api.kexp.org/v2/shows/65012/",
+            "image_uri": "",
+            "thumbnail_uri": "",
+            "song": "theme of the morning show",
+            "track_id": null,
+            "recording_id": null,
+            "artist": "Rigur Sos",
+            "artist_ids": [],
+            "album": "Knus",
+            "release_id": null,
+            "release_group_id": null,
+            "labels": [
+                "KEXP"
+            ],
+            "label_ids": [
+                "89e0503e-96f0-41b4-835f-2c542b7fcb44"
+            ],
+            "release_date": "2015-01-01",
+            "rotation_status": null,
+            "is_local": false,
+            "is_request": false,
+            "is_live": false,
+            "location": 1,
+            "location_name": "Default",
+            "play_type": "trackplay"
+        }
+    ]
+}

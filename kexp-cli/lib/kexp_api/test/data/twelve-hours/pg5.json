@@ -1,0 +1,33 @@
+{
+    "next": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=120&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "previous": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=80&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "results": [
+        {
+            "id": 3573359,
+            "uri": "https://api.kexp.org/v2/plays/3573359/",
+            "airdate": "2025-11-03T04:53:54-08:00",
+            "show": 65010,
+            "show_uri": "https://api.kexp.org/v2/shows/65010/",
+            "image_uri": "https://coverartarchive.org/release/2de298c7-a648-4d63-92bd-c188810b38e5/40035917121-500.jpg",
+            "thumbnail_uri": "https://coverartarchive.org/release/2de298c7-a648-4d63-92bd-c188810b38e5/40035917121-250.jpg",
+            "song": "Come Out",
+            "track_id": null,
+            "recording_id": "9d8bcb85-ce4a-4b83-b001-a8b04d7b74bd",
+            "artist": "Aysanabee, Raye Zaragoza",
+            "artist_ids": [],
+            "album": "Here and Now",
+            "release_id": null,
+            "release_group_id": "18c01811-7ea2-4e2c-b437-deee0d0ffc45",
+            "labels": [],
+            "label_ids": [],
+            "release_date": "2023-10-20",
+            "rotation_status": null,
+            "is_local": false,
+            "is_request": true,
+            "is_live": false,
+            "location": 1,
+            "location_name": "Default",
+            "play_type": "trackplay"
+        }
+    ]
+}

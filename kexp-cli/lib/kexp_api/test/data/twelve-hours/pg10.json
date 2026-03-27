@@ -1,0 +1,5 @@
+{
+    "next": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=220&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "previous": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=180&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "results": []
+}

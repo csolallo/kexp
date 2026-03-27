@@ -1,0 +1,39 @@
+{
+    "next": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=40&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "previous": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "results": [
+        {
+            "id": 3573443,
+            "uri": "https://api.kexp.org/v2/plays/3573443/",
+            "airdate": "2025-11-03T09:46:32-08:00",
+            "show": 65012,
+            "show_uri": "https://api.kexp.org/v2/shows/65012/",
+            "image_uri": "",
+            "thumbnail_uri": "",
+            "song": "Brother Loves Traveling Salvation Show",
+            "track_id": "442750e4-11c4-4a7e-84cd-062ec442aa0b",
+            "recording_id": "3abb5153-f300-4edb-b07a-b8a961a959ee",
+            "artist": "Neil Diamond",
+            "artist_ids": [
+                "a42d3fd5-55de-4206-86c3-4fbb5404018f"
+            ],
+            "album": "Brother Loves Traveling Salvation Show",
+            "release_id": "8b4c5194-af27-47e6-9202-a0ffa31697d3",
+            "release_group_id": "fafbec54-cec5-3d3f-bb55-baa245e8b0d2",
+            "labels": [
+                "UNI Records"
+            ],
+            "label_ids": [
+                "83dedbf0-9cd7-470a-b317-0bb724785b20"
+            ],
+            "release_date": "1970-01-01",
+            "rotation_status": "Library",
+            "is_local": false,
+            "is_request": false,
+            "is_live": false,
+            "location": 1,
+            "location_name": "Default",
+            "play_type": "trackplay"
+        }
+    ]
+}

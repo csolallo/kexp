@@ -1,0 +1,36 @@
+{
+    "next": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=160&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "previous": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=120&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "results": [
+        {
+            "id": 3573319,
+            "uri": "https://api.kexp.org/v2/plays/3573319/",
+            "airdate": "2025-11-03T02:36:39-08:00",
+            "show": 65009,
+            "show_uri": "https://api.kexp.org/v2/shows/65009/",
+            "image_uri": "",
+            "thumbnail_uri": "",
+            "song": "Umzi Watsha",
+            "track_id": null,
+            "recording_id": null,
+            "artist": "Zim Ngqawana",
+            "artist_ids": [],
+            "album": "Ingoma",
+            "release_id": null,
+            "release_group_id": null,
+            "labels": [
+                "Sheer Sound"
+            ],
+            "label_ids": [],
+            "release_date": "1999-01-01",
+            "rotation_status": null,
+            "is_local": false,
+            "is_request": false,
+            "is_live": false,
+            "comment": null,
+            "location": 1,
+            "location_name": "Default",
+            "play_type": "trackplay"
+        }
+    ]
+}

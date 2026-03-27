@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "kexp-cli",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/kexp_cli.dart",
+            "args": ["plays", "-l", "warning", "-b", "-n", "1"],
+            "vmAdditionalArgs": ["--timeline_streams=VM,Isolate,GC"],
+        },
+    ]
+}

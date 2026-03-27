@@ -1,0 +1,39 @@
+{
+    "next": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=20&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "previous": null,
+    "results": [
+        {
+            "id": 3573463,
+            "uri": "https://api.kexp.org/v2/plays/3573463/",
+            "airdate": "2025-11-03T10:58:18-08:00",
+            "show": 65013,
+            "show_uri": "https://api.kexp.org/v2/shows/65013/",
+            "image_uri": "",
+            "thumbnail_uri": "",
+            "song": "Heads Will Roll",
+            "track_id": "4f747275-1c6d-3040-aad6-6ccc52b97351",
+            "recording_id": "493b4b13-f3a3-4ba6-8ae1-7667035dcc16",
+            "artist": "Yeah Yeah Yeahs",
+            "artist_ids": [
+                "584c04d2-4acc-491b-8a0a-e63133f4bfc4"
+            ],
+            "album": "It's Blitz!",
+            "release_id": "e315a8a4-3ac4-4c68-af95-844a1d3d01c0",
+            "release_group_id": "08e1a593-cbce-3943-8a90-79c4d8c2b693",
+            "labels": [
+                "Interscope Records"
+            ],
+            "label_ids": [
+                "2182a316-c4bd-4605-936a-5e2fac52bdd2"
+            ],
+            "release_date": "2009-03-31",
+            "rotation_status": "Library",
+            "is_local": false,
+            "is_request": false,
+            "is_live": false,
+            "location": 1,
+            "location_name": "Default",
+            "play_type": "trackplay"
+        }
+    ]
+}

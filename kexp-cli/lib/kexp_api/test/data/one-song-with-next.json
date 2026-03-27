@@ -1,0 +1,40 @@
+{
+    "next": "https://api.kexp.org/v2/plays/?airdate_after=&airdate_before=&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=3&offset=3&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "previous": null,
+    "results": [
+        {
+            "id": 3632760,
+            "uri": "https://api.kexp.org/v2/plays/3632760/",
+            "airdate": "2026-03-23T14:24:07-07:00",
+            "show": 66261,
+            "show_uri": "https://api.kexp.org/v2/shows/66261/",
+            "image_uri": "https://coverartarchive.org/release/c6233602-7a77-4a1a-b405-d3d75a9c631c/14999562820-500.jpg",
+            "thumbnail_uri": "https://coverartarchive.org/release/c6233602-7a77-4a1a-b405-d3d75a9c631c/14999562820-250.jpg",
+            "song": "Definitely Clean",
+            "track_id": null,
+            "recording_id": "fe8a730c-8fe3-4123-a609-905c11d77f71",
+            "artist": "The Dream Syndicate",
+            "artist_ids": [
+                "8577c385-d06a-4a64-b4e7-6ebf25f2cb20"
+            ],
+            "album": "The Days of Wine and Roses",
+            "release_id": null,
+            "release_group_id": "cad1a3b9-d054-328f-850e-6381314cd767",
+            "labels": [
+                "Slash"
+            ],
+            "label_ids": [
+                "490afeef-44aa-4bba-b5d7-df875609957f"
+            ],
+            "release_date": "1982-10-28",
+            "rotation_status": null,
+            "is_local": false,
+            "is_request": false,
+            "is_live": false,
+            "comment": null,
+            "location": 1,
+            "location_name": "Default",
+            "play_type": "trackplay"
+        }
+    ]
+}

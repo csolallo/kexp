@@ -1,0 +1,18 @@
+{
+    "next": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=60&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "previous": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=20&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "results": [
+        {
+            "id": 3573422,
+            "uri": "https://api.kexp.org/v2/plays/3573422/",
+            "airdate": "2025-11-03T08:16:49-08:00",
+            "show": 65012,
+            "show_uri": "https://api.kexp.org/v2/shows/65012/",
+            "image_uri": "",
+            "thumbnail_uri": "",
+            "location": 1,
+            "location_name": "Default",
+            "play_type": "airbreak"
+        }
+    ]
+}

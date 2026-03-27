@@ -1,0 +1,39 @@
+{
+    "next": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=100&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "previous": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=60&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "results": [
+        {
+            "id": 3573380,
+            "uri": "https://api.kexp.org/v2/plays/3573380/",
+            "airdate": "2025-11-03T05:53:44-08:00",
+            "show": 65011,
+            "show_uri": "https://api.kexp.org/v2/shows/65011/",
+            "image_uri": "https://ia600409.us.archive.org/26/items/mbid-e69de4f4-78d4-41f2-8d6b-34d7cfc7d3e0/mbid-e69de4f4-78d4-41f2-8d6b-34d7cfc7d3e0-18448313797_thumb500.jpg",
+            "thumbnail_uri": "https://ia800409.us.archive.org/26/items/mbid-e69de4f4-78d4-41f2-8d6b-34d7cfc7d3e0/mbid-e69de4f4-78d4-41f2-8d6b-34d7cfc7d3e0-18448313797_thumb250.jpg",
+            "song": "Sometimes",
+            "track_id": "2545fb65-5c42-3338-b89c-6df51fc49cba",
+            "recording_id": "65189c36-1f0f-42f0-b2bc-8882b548cf1a",
+            "artist": "The Jesus and Mary Chain",
+            "artist_ids": [
+                "e938a15c-b17e-4e7a-9f68-ff0d536cab44"
+            ],
+            "album": "Far Gone and Out",
+            "release_id": "e69de4f4-78d4-41f2-8d6b-34d7cfc7d3e0",
+            "release_group_id": "9fe2dac5-46a3-47ae-9167-ccaac33d4aa1",
+            "labels": [
+                "Def American Recordings"
+            ],
+            "label_ids": [
+                "e45bca92-5845-46ec-af58-743bbea31e69"
+            ],
+            "release_date": "1992-05-28",
+            "rotation_status": null,
+            "is_local": false,
+            "is_request": false,
+            "is_live": false,
+            "location": 1,
+            "location_name": "Default",
+            "play_type": "trackplay"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+.results | map(
+    select(
+        (.airdate | strptime("%Y-%m-%dT%H:%M:%S%z") | todate | fromdateiso8601) > ("2025-11-03T13:00:00-0800" | strptime("%Y-%m-%dT%H:%M:%S%z") | todate | fromdateiso8601)
+    )
+)

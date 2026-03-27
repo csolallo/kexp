@@ -1,0 +1,34 @@
+{
+    "next": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=200&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "previous": "https://api.kexp.org/v2/plays/?airdate_after=2025-11-03T00%3A00%3A00-07%3A00&airdate_before=2025-11-03T12%3A00%3A00-07%3A00&album=&album_exact=&artist=&artist_exact=&exclude_airbreaks=false&exclude_non_songs=&has_comment=&host_ids=&label=&label_exact=&limit=20&offset=160&ordering=-airdate&playlist_location=&recording_id=&show_ids=&song=&song_exact=",
+    "results": [
+        {
+            "id": 3573279,
+            "uri": "https://api.kexp.org/v2/plays/3573279/",
+            "airdate": "2025-11-03T00:04:01-08:00",
+            "show": 65008,
+            "show_uri": "https://api.kexp.org/v2/shows/65008/",
+            "image_uri": "",
+            "thumbnail_uri": "",
+            "song": "Ra Explains the Bandura",
+            "track_id": null,
+            "recording_id": null,
+            "artist": "Sun Ra",
+            "artist_ids": [],
+            "album": null,
+            "release_id": null,
+            "release_group_id": null,
+            "labels": [],
+            "label_ids": [],
+            "release_date": null,
+            "rotation_status": null,
+            "is_local": false,
+            "is_request": false,
+            "is_live": false,
+            "comment": null,
+            "location": 1,
+            "location_name": "Default",
+            "play_type": "trackplay"
+        }
+    ]
+}
