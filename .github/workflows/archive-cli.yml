@@ -18,14 +18,16 @@ jobs:
       
       - name: run cli tests to ensure quality
         run: |
-          pushd ./kexp-cli/lib/kexp_api 
+          cd ./kexp-cli
+          dart pub get
+          cd ./lib/kexp_api
           dart test
-          popd
+          cd ${{ github.workspace }}
 
 #extract cli from repo
 
 
-#prunc cli 
+#prune cli 
 
 
 #archive  cli
