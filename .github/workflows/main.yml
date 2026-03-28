@@ -4,16 +4,23 @@ on:
   workflow_dispatch:
 
 jobs:
-  say_hello:
+  create_cli_archive:
+    name: create the cli archive
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Done!"
-
-#clone repo
-
-
-#run cli specific tests
-
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: 3.11
+      
+      - name: run cli tests to ensure quality
+        run: |
+          pushd ./kexp-cli/lib/kexp_api 
+          dart test
+          popd
 
 #extract cli from repo
 
