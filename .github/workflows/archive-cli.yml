@@ -24,10 +24,15 @@ jobs:
           dart test
           cd ${{ github.workspace }}
 
-#extract cli from repo
+      - name: prune and archive cli from repo
+        run: |
+          mkdir working
+          git archive --format tar.gz -v --worktree-attributes -o "./working/archive.tar.gz" HEAD kexp-cli
 
-
-#prune cli 
-
-
-#archive  cli
+      - name: upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive.tar.gz
+          overwrite: true
+          path: working
+          
