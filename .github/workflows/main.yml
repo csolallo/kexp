@@ -1,0 +1,24 @@
+name: package kexp cli
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Done!"
+
+#clone repo
+
+
+#run cli specific tests
+
+
+#extract cli from repo
+
+
+#prunc cli 
+
+
+#archive  cli
