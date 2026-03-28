@@ -1,11 +1,9 @@
-import 'dart:convert';
-
 import 'package:http/http.dart';
-import 'package:http/http.dart' as http;
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';
 
+import 'dart:convert';
 import 'dart:io';
 
 import '../../src/services/plays_service.dart';
@@ -13,7 +11,7 @@ import '../../src/models/song_model.dart';
 import '../../src/models/airbreak_model.dart';
 
 // run 'dart run build_runner build' to generate the mocks before running the tests
-@GenerateNiceMocks([MockSpec<http.Client>()])
+@GenerateNiceMocks([MockSpec<Client>()])
 import '../helpers/play_service_tests.mocks.dart';
 
 void main() {
@@ -31,7 +29,7 @@ void main() {
                     final file = File('test/data/twelve-hours/pg0.json');
                     final contents = await file.readAsBytes();
 
-                    return http.Response(utf8.decode(contents), 200);
+                    return Response(utf8.decode(contents), 200);
                 });
             } else {
                 when(mockClient.get
@@ -43,7 +41,7 @@ void main() {
                     final file = File('test/data/twelve-hours/pg$n.json');
                     final contents = await file.readAsBytes();
 
-                    return http.Response(utf8.decode(contents), 200);
+                    return Response(utf8.decode(contents), 200);
                 });
             }
         }   
