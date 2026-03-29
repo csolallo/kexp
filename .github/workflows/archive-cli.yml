@@ -53,7 +53,7 @@ jobs:
       - name: update README.md
         run: |
           cd kexp-cli
-          sed -i 's|\[Latest Artifact\](.*)|\[Latest Artifact\](${ARCH_URL})|' ./README.md
+          sed -i "s|\[Latest Artifact\](.*)|\[Latest Artifact\](${ARCH_URL})|" ./README.md
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git commit -am "README update"
