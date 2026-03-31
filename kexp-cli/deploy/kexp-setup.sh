@@ -4,13 +4,8 @@
 function prepare_app_build() {
     local verbose="$1"
 
-    dart pub get
-    
     pushd ./kexp-cli > /dev/null
-    rm -rf .dart_tool
-    rm pubspec.*
-    rm ./lib/kexp_api/pubspec.yaml
-
+    dart pub get
     popd > /dev/null
 
     create_driver_script "$verbose"
