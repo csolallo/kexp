@@ -19,7 +19,7 @@ function create_driver_script() {
 #!/data/data/com.termux/files/usr/bin/bash
 
 pushd ~/.termux/tasker/kexp-cli > /dev/null    
-dart bin/kexp_cli.dart plays -n 1
+dart bin/kexp_cli.dart plays --no-air-breaks -n 1 > /data/data/com.termux/files/home/storage/shared/Documents/Xfer/kexp.json
 popd > /dev/null
 EOF
 )
