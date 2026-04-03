@@ -1,7 +1,6 @@
 import 'package:args/args.dart';
 import 'package:args/command_runner.dart';
-import 'package:kexp_cli/kexp_api/kexp_api.dart';
-
+import 'package:kexp_api/kexp_api.dart';
 
 const String version = '0.0.1';
 

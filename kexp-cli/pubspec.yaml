@@ -10,7 +10,7 @@ environment:
 dependencies:
   args: ^2.7.0
   kexp_api:
-    path: ./lib/kexp_api
+    path: ../lib/kexp_api
 
 dev_dependencies:
   lints: ^6.0.0

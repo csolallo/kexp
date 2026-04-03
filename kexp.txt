@@ -1,0 +1,48 @@
+GOAL:
+
+Let's create an android app. It takes a radio service (kexp) and displays the currently playing song. The app has a wear os companion app. When the song changes the app will update the wear os companion app. The app will update its tile. We'll build the apps in Flutter.
+
+TODO
+
+Phase I - initial setup:
+
+[X] Download flutter and dart 
+
+[X] Download chrome (backup VM!)
+
+[X] Go over all my notes regarding dart
+
+[X] Create a flutter app with a single activity
+    (the counter)
+
+[] Add a watch app
+    * with centered textfield
+    * current count in app is reflected in the textfield
+    
+
+
+Phase II - 
+
+remove counter and ad in call bto api.
+* show currently playing artist
+* button to disable updating the watch app
+
+add background service. when kexp is running, start the monitoring and send updates to watch app
+
+
+
+
+[] Add a service (Probably WorkManager is better)
+
+
+/data/data/com.termux/files/home/.termux/tasker
+
+https://jqlang.org/manual/
+
+
+
+https://raw.githubusercontent.com/csolallo/kexp/refs/heads/main/kexp-cli/deploy/kexp-setup.sh
+https://raw.githubusercontent.com/csolallo/Groceries/refs/heads/main/deploy/Groceries-setup.sh
+
+
+

@@ -3,12 +3,11 @@ import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';
 
+
 import 'dart:convert';
 import 'dart:io';
 
-import '../../src/services/plays_service.dart';
-import '../../src/models/song_model.dart';
-import '../../src/models/airbreak_model.dart';
+import 'package:kexp_api/kexp_api.dart';
 
 // run 'dart run build_runner build' to generate the mocks before running the tests
 @GenerateNiceMocks([MockSpec<Client>()])
