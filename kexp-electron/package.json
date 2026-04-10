@@ -1,0 +1,22 @@
+{
+  "name": "kexp-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main/main.js",
+  "scripts": {
+    "start:electron": "NODE_ENV=development electron .",
+    "start:flutter": "cd web_app && flutter run",
+    "start:embedded": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^41.1.1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "yenv": "^3.0.1"
+  }
+}
