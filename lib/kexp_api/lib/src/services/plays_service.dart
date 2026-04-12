@@ -111,8 +111,11 @@ class PlayService {
         CommandLogger.getInstance().info("starting Url:\n$url");
 
         List<Airing> results = List.empty(growable: true);
-        await _buildList(results, request.numberOfTracks ?? IntExtensions.maxint, url);
-        _client.close();
+        try {
+            await _buildList(results, request.numberOfTracks ?? IntExtensions.maxint, url);
+        } finally {
+            _client.close();
+        }
         return results;
     }
 
