@@ -23,7 +23,8 @@ class NowPlayingViewModel extends ChangeNotifier {
     final nowPlayingResult = await _repository.fetchCurrentTrack();
     switch (nowPlayingResult) {
       case Ok(value: var v):
-        _currentTrack = v as NowPlayingTrack?;
+        _currentTrack = v;
+        break;
       case Err(error: var err):
         _currentTrack = null;
         log("Error fetching current track: $err");

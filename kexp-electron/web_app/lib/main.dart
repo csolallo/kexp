@@ -22,7 +22,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
          colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: (context) {
+      home: Builder(
+        builder: (BuildContext context) {
         PlayService service = PlayService();
         var repository = NowPlayingRepository(service: service); 
         var viewModel = NowPlayingViewModel(repository: repository);
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
             viewModel: viewModel,
             child: NowPlayingView()
         ); 
-      }(context)
+      })
     );
   }
 }
