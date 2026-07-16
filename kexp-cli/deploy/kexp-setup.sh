@@ -39,8 +39,8 @@ function move_app_to_destination() {
 
     mkdir -p $dest/kexp
 
-    cp -a -r $working/kexp-cli/. $dest/kexp
-    cp -a -r $working/lib/. $dest/kexp
+    cp -a -r $working/kexp-cli $dest/kexp
+    cp -a -r $working/lib $dest/kexp
     cp $working/kexp_plays.sh $dest/kexp_plays.sh
 }
 
