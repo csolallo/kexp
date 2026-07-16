@@ -22,14 +22,14 @@ jobs:
         run: |
           cd ./kexp-cli
           dart pub get
-          cd ./lib/kexp_api
+          cd ../lib/kexp_api
           dart test
           cd ${{ github.workspace }}
 
       - name: prune and archive cli from repo
         run: |
           mkdir working
-          git archive --format tar.gz -v --worktree-attributes -o "./working/archive.tar.gz" HEAD kexp-cli
+          git archive --format tar.gz -v --worktree-attributes -o "./working/archive.tar.gz" HEAD
 
       - name: upload artifact
         id: artifact-upload-step
