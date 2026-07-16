@@ -18,7 +18,7 @@ function create_driver_script() {
     sc=$(cat <<EOF
 #!/data/data/com.termux/files/usr/bin/bash
 
-pushd ~/.termux/tasker/kexp-cli > /dev/null    
+pushd ~/.termux/tasker/kexp/kexp-cli > /dev/null    
 dart bin/kexp_cli.dart plays --no-air-breaks -n 1 > /data/data/com.termux/files/home/storage/shared/Documents/Xfer/kexp.json
 popd > /dev/null
 EOF
@@ -37,7 +37,10 @@ function move_app_to_destination() {
     local working="$1"
     local dest="$2"
 
-    mkdir -p $dest/kexp-cli && cp -a $working/kexp-cli/. $dest/kexp-cli
+    mkdir -p $dest/kexp
+
+    cp -a -r $working/kexp-cli/. $dest/kexp
+    cp -a -r $working/lib/. $dest/kexp
     cp $working/kexp_plays.sh $dest/kexp_plays.sh
 }
 
